@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		672CB4D71C01FEF40096D9B6 /* CoreAudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 672CB4D61C01FEF40096D9B6 /* CoreAudioKit.framework */; };
+		672CB4DA1C0210AF0096D9B6 /* MIDISettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 672CB4D91C0210AF0096D9B6 /* MIDISettingsViewController.m */; };
+		672CB4DD1C021A050096D9B6 /* MIDIManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 672CB4DC1C021A050096D9B6 /* MIDIManager.mm */; };
+		67632AF21C985A0D004ACEB1 /* PadGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 67632AF11C985A0D004ACEB1 /* PadGrid.m */; };
+		678610021C986D5100C59923 /* PadSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 678610011C986D5100C59923 /* PadSettings.m */; };
+		67A561DB1C98676C007FE43E /* PadSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A561DA1C98676C007FE43E /* PadSettingsViewController.m */; };
+		67AEA0B01C0116740052758D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67AEA0AF1C0116740052758D /* main.m */; };
+		67AEA0B31C0116740052758D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67AEA0B21C0116740052758D /* AppDelegate.m */; };
+		67AEA0B61C0116740052758D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67AEA0B51C0116740052758D /* ViewController.m */; };
+		67AEA0B91C0116740052758D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67AEA0B71C0116740052758D /* Main.storyboard */; };
+		67AEA0BB1C0116740052758D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67AEA0BA1C0116740052758D /* Assets.xcassets */; };
+		67AEA0BE1C0116740052758D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67AEA0BC1C0116740052758D /* LaunchScreen.storyboard */; };
+		67AEA0C61C0116880052758D /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67AEA0C51C0116880052758D /* CoreMIDI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		672CB4D61C01FEF40096D9B6 /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
+		672CB4D81C0210AF0096D9B6 /* MIDISettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDISettingsViewController.h; sourceTree = "<group>"; };
+		672CB4D91C0210AF0096D9B6 /* MIDISettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIDISettingsViewController.m; sourceTree = "<group>"; };
+		672CB4DB1C021A050096D9B6 /* MIDIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDIManager.h; sourceTree = "<group>"; };
+		672CB4DC1C021A050096D9B6 /* MIDIManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MIDIManager.mm; sourceTree = "<group>"; };
+		67632AF01C985A0D004ACEB1 /* PadGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PadGrid.h; sourceTree = "<group>"; };
+		67632AF11C985A0D004ACEB1 /* PadGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PadGrid.m; sourceTree = "<group>"; };
+		678610001C986D5100C59923 /* PadSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PadSettings.h; sourceTree = "<group>"; };
+		678610011C986D5100C59923 /* PadSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PadSettings.m; sourceTree = "<group>"; };
+		67A561D91C98676C007FE43E /* PadSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PadSettingsViewController.h; sourceTree = "<group>"; };
+		67A561DA1C98676C007FE43E /* PadSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PadSettingsViewController.m; sourceTree = "<group>"; };
+		67AEA0AB1C0116740052758D /* MidiPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MidiPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67AEA0AF1C0116740052758D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67AEA0B11C0116740052758D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		67AEA0B21C0116740052758D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		67AEA0B41C0116740052758D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		67AEA0B51C0116740052758D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		67AEA0B81C0116740052758D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67AEA0BA1C0116740052758D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67AEA0BD1C0116740052758D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67AEA0BF1C0116740052758D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67AEA0C51C0116880052758D /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67AEA0A81C0116740052758D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				672CB4D71C01FEF40096D9B6 /* CoreAudioKit.framework in Frameworks */,
+				67AEA0C61C0116880052758D /* CoreMIDI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67AEA0A21C0116740052758D = {
+			isa = PBXGroup;
+			children = (
+				672CB4D61C01FEF40096D9B6 /* CoreAudioKit.framework */,
+				67AEA0C51C0116880052758D /* CoreMIDI.framework */,
+				67AEA0AD1C0116740052758D /* MidiPad */,
+				67AEA0AC1C0116740052758D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67AEA0AC1C0116740052758D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67AEA0AB1C0116740052758D /* MidiPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67AEA0AD1C0116740052758D /* MidiPad */ = {
+			isa = PBXGroup;
+			children = (
+				67AEA0B11C0116740052758D /* AppDelegate.h */,
+				67AEA0B21C0116740052758D /* AppDelegate.m */,
+				67AEA0B41C0116740052758D /* ViewController.h */,
+				67AEA0B51C0116740052758D /* ViewController.m */,
+				67632AF01C985A0D004ACEB1 /* PadGrid.h */,
+				67632AF11C985A0D004ACEB1 /* PadGrid.m */,
+				672CB4D81C0210AF0096D9B6 /* MIDISettingsViewController.h */,
+				672CB4D91C0210AF0096D9B6 /* MIDISettingsViewController.m */,
+				67A561D91C98676C007FE43E /* PadSettingsViewController.h */,
+				67A561DA1C98676C007FE43E /* PadSettingsViewController.m */,
+				672CB4DB1C021A050096D9B6 /* MIDIManager.h */,
+				672CB4DC1C021A050096D9B6 /* MIDIManager.mm */,
+				678610001C986D5100C59923 /* PadSettings.h */,
+				678610011C986D5100C59923 /* PadSettings.m */,
+				67AEA0B71C0116740052758D /* Main.storyboard */,
+				67AEA0BA1C0116740052758D /* Assets.xcassets */,
+				67AEA0BC1C0116740052758D /* LaunchScreen.storyboard */,
+				67AEA0BF1C0116740052758D /* Info.plist */,
+				67AEA0AE1C0116740052758D /* Supporting Files */,
+			);
+			path = MidiPad;
+			sourceTree = "<group>";
+		};
+		67AEA0AE1C0116740052758D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67AEA0AF1C0116740052758D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67AEA0AA1C0116740052758D /* MidiPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67AEA0C21C0116740052758D /* Build configuration list for PBXNativeTarget "MidiPad" */;
+			buildPhases = (
+				67AEA0A71C0116740052758D /* Sources */,
+				67AEA0A81C0116740052758D /* Frameworks */,
+				67AEA0A91C0116740052758D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MidiPad;
+			productName = MidiPad;
+			productReference = 67AEA0AB1C0116740052758D /* MidiPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67AEA0A31C0116740052758D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Zahola;
+				TargetAttributes = {
+					67AEA0AA1C0116740052758D = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = E8JYK7RR6X;
+					};
+				};
+			};
+			buildConfigurationList = 67AEA0A61C0116740052758D /* Build configuration list for PBXProject "MidiPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67AEA0A21C0116740052758D;
+			productRefGroup = 67AEA0AC1C0116740052758D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67AEA0AA1C0116740052758D /* MidiPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67AEA0A91C0116740052758D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67AEA0BE1C0116740052758D /* LaunchScreen.storyboard in Resources */,
+				67AEA0BB1C0116740052758D /* Assets.xcassets in Resources */,
+				67AEA0B91C0116740052758D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67AEA0A71C0116740052758D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67AEA0B61C0116740052758D /* ViewController.m in Sources */,
+				67A561DB1C98676C007FE43E /* PadSettingsViewController.m in Sources */,
+				672CB4DD1C021A050096D9B6 /* MIDIManager.mm in Sources */,
+				67AEA0B31C0116740052758D /* AppDelegate.m in Sources */,
+				67632AF21C985A0D004ACEB1 /* PadGrid.m in Sources */,
+				672CB4DA1C0210AF0096D9B6 /* MIDISettingsViewController.m in Sources */,
+				678610021C986D5100C59923 /* PadSettings.m in Sources */,
+				67AEA0B01C0116740052758D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		67AEA0B71C0116740052758D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67AEA0B81C0116740052758D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67AEA0BC1C0116740052758D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67AEA0BD1C0116740052758D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67AEA0C01C0116740052758D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67AEA0C11C0116740052758D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67AEA0C31C0116740052758D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MidiPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prezi.Scrolling60fps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "bf72d711-0381-465c-9e3c-1a76527ede03";
+			};
+			name = Debug;
+		};
+		67AEA0C41C0116740052758D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MidiPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prezi.Scrolling60fps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "bf72d711-0381-465c-9e3c-1a76527ede03";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67AEA0A61C0116740052758D /* Build configuration list for PBXProject "MidiPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67AEA0C01C0116740052758D /* Debug */,
+				67AEA0C11C0116740052758D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67AEA0C21C0116740052758D /* Build configuration list for PBXNativeTarget "MidiPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67AEA0C31C0116740052758D /* Debug */,
+				67AEA0C41C0116740052758D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67AEA0A31C0116740052758D /* Project object */;
+}
